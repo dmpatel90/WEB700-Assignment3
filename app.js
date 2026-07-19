@@ -21,7 +21,6 @@ app.use(express.urlencoded({ extended: true }));
 // Existing middleware
 app.use(express.json());
  
-app.use(express.json());
  
 app.get("/", (req, res) => {
     res.status(200).json({
